@@ -31,7 +31,7 @@ serde_json = "1.0.89"
 surf = { version = "2.3.2", default-features = false, features = ["h1-client-rustls", "middleware-logger", "encoding"] } # we use rustls because OpenSSL cause issues compiling on aarch64
 tempfile = "3.3.0"
 thiserror = "1.0.57"
-tokio = { version = "1.14.0", features = ["full"] }
+tokio = { version = "1.38.2", features = ["full"] }
 tracing = "0.1.36"
 trin-utils = { path = "../trin-utils" }
 
